@@ -1,0 +1,24 @@
+/* Define a cor de um elemento na linha */
+td {
+    color: red;
+}
+/* Altura de uma caixa de elemento do header */
+th {
+    height: 35px;
+}
+/* Altura de uma caixa de elemento */
+td {
+  height: 20px;
+}
+/* Este define o espaçamento lateral */
+td {
+    padding: 5px;
+    text-align: left;
+}
+/* Este define as bordas da tabela */
+table {
+    border-collapse: collapse;
+}
+table, th, td {
+    border: 1px solid black;
+}
