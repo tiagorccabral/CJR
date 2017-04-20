@@ -7,18 +7,20 @@ th {
     height: 35px;
 }
 /* Altura de uma caixa de elemento */
-td {
-  height: 20px;
-}
 /* Este define o espaçamento lateral */
 td {
-    padding: 5px;
-    text-align: left;
+  height: 20px;
+  padding: 5px;
+  text-align: left;
 }
 /* Este define as bordas da tabela */
 table {
     border-collapse: collapse;
 }
+/* Tamanho da borda */
 table, th, td {
     border: 1px solid black;
+}
+preto {
+  color : black;
 }
