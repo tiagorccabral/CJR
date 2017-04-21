@@ -1,4 +1,8 @@
-redcolor {
+.redcolor {
+  color: red;
+}
+
+#special {
   color: red;
 }
 
