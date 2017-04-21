@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>EX 4 - Formulário</title>
+  </head>
+  <body>
+    <h1>Formulário</h1>
+    <form action = "index.html" method="GET">
+      <label for = "name" >Nome:</label>
+      <input type="text" name = "Nome" placeholder="Nome"></input><br>
+      <label for = "email">Email:</label>
+      <input type="email" name="Email" placeholder="email"><br>
+      <label for = "senha">Senha:</label>
+      <input type="password" name = "senha" placeholder = "Senha"> </input><br>
+      <br>
+      <div>Sexo:</div>
+      <label for = "sexo"></label>
+      <input type="radio" name="sexo">Masculino</input><br>
+      <label for = "sexo"></label>
+      <input type="radio" name="sexo">Feminino</input>
+      <br>
+      <br>
+      <div>Tecnologias:</div>
+      <label for="tecnologias"></label>
+      <input type="checkbox" name="HTML">HTML</input><br>
+      <label for="tecnologias"></label>
+      <input type="checkbox" name="CSS">CSS</input><br>
+      <label for="tecnologias"></label>
+      <input type="checkbox" name="Java">Java</input><br>
+      <label for="tecnologias"></label>
+      <input type="checkbox" name="PHP">PHP</input><br>
+
+      <p>Descrição pessoal:</p>
+      <textarea name = "descricao" rows = "5" cols = "15" placeholder="Digite aqui..." ></textarea>
+      <br>
+      <br>
+      <label for="opcao">Opção:</label>
+      <select name = "opcao">
+        <option>Opção 1</option>
+        <option>Opção 2</option>
+        <option>Opção 3</option>
+        <option>Opção 4</option>
+      </select>
+      <br><br>
+      <input type="submit" name="" value="Enviar"><br>
+      <input type= "reset" name="" value="Limpar">
+
+    </form>
+  </body>
+</html>
