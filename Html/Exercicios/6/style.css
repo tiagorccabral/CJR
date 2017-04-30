@@ -1,0 +1,153 @@
+.WhiteText {
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	position: relative;
+}
+
+#topo {
+	right: 3%;
+}
+
+body {
+	background: LightSteelBlue;
+}
+
+div#fundo {
+	width: 125em;
+	height: 137em;
+	position: relative;
+	background: LightSteelBlue;
+}
+
+div#site {
+	width: 70%;
+	height: 100%;
+	background-color: MediumBlue;
+	border-radius: 9px;
+	padding-left: 50px;
+	position: relative;
+	left: 15%;
+	right: 15%;
+	bottom: 1em;
+}
+div#header {
+	width: 1102.5px;
+	height: 252px;
+	background-color: MidNightBlue;
+	border-radius: 9px;
+	position: absolute;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+div#logo {
+	width: 96%;
+	height: 30%;
+	background-color: Gainsboro;
+	border-radius: 9px;
+	position: absolute;
+	left: 2%;
+	right: 2%;
+}
+
+.Banner {
+	width: 1102.5px;
+	height: 200.59px;
+	top:227px;
+	background-color: MidNightBlue;
+	border-radius: 9px;
+	position: relative;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+div#comentario {
+	width: 1058.39px;
+	height: 90.91px;
+	background-color: Gainsboro;
+	border-radius: 9px;
+	position: absolute;
+	left: 2%;
+	right: 2%;
+	bottom: 30px;
+}
+
+div#conteudo {
+	width: 1102.5px;
+	height: 1140.17px;
+	top: 500px;
+	background-color: MidNightBlue;
+	border-radius: 9px;
+	position: absolute;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+div#esquerdo {
+	width: 1058.39px;
+	height: 775.91px;
+	background-color: Gainsboro;
+	border-radius: 9px;
+	position: absolute;
+	left: 2%;
+	right: 2%;
+}
+
+div#direito {
+	width: 1058.39px;
+	height: 289.91px;
+	top: 833px;
+	background-color: Gainsboro;
+	border-radius: 9px;
+	position: absolute;
+	left: 2%;
+	right: 2%;
+}
+
+.footer {
+	width: 1102.5px;
+	height: 215.17px;
+	top: 1660px;
+	background-color: MidNightBlue;
+	border-radius: 9px;
+	position: absolute;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.copyright {
+	width: 1058.39px;
+	height: 125.91px;
+	background-color: Gainsboro;
+	border-radius: 9px;
+	position: absolute;
+	left: 2%;
+	right: 2%;
+	bottom: 30px;
+}
+
+.noticia {
+
+	width: 1035.39px;
+	height: 200.91px;
+	background-color: CornflowerBlue;
+	border-radius: 9px;
+	position: relative;
+	top: 100px;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+td,th,tr {
+	height: 50px;
+	width: 150px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 18px;
+}
+
+p {
+	font-size: 18px;
+}
